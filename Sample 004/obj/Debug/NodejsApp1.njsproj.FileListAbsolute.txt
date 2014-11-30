@@ -1,0 +1,2 @@
+\\psf\Dropbox\Presentations\Codemotion\Codemotion Milano 2014\Demo\Sample 004\obj\Debug\NodejsApp1.njsprojResolveAssemblyReference.cache
+\\psf\Dropbox\Presentations\Codemotion\Codemotion Milano 2014\Demo\Sample 004\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{37b61239-07cf-4cd8-9ae8-fba0db4982c4}</ProjectGuid>
+        <ProjectHome />
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile>app.js</StartupFile>
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="bower.json" />
+        <Content Include="package.json" />
+        <Compile Include="app.js" />
+        <Compile Include="configureExpress.js" />
+        <Compile Include="APIs\sampleApiController.js" />
+        <Compile Include="controllers\homeController.js" />
+        <Compile Include="database\mssql.js" />
+        <Content Include="public\git.png" />
+        <Content Include="public\lib\bootstrap\.bower.json" />
+        <Content Include="public\lib\bootstrap\bower.json" />
+        <Content Include="public\lib\bootstrap\package.json" />
+        <Content Include="public\lib\bootstrap\README.md" />
+        <Compile Include="public\lib\bootstrap\Gruntfile.js" />
+        <Content Include="public\lib\jquery\MIT-LICENSE.txt" />
+        <Content Include="public\lib\jquery\.bower.json" />
+        <Content Include="public\lib\jquery\bower.json" />
+        <Content Include="public\lib\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+        <Content Include="public\lib\bootstrap\grunt\configBridge.json" />
+        <Compile Include="public\lib\bootstrap\grunt\bs-commonjs-generator.js" />
+        <Compile Include="public\lib\bootstrap\grunt\bs-lessdoc-parser.js" />
+        <Compile Include="public\lib\bootstrap\grunt\bs-raw-files-generator.js" />
+        <Compile Include="public\lib\bootstrap\js\affix.js" />
+        <Compile Include="public\lib\bootstrap\js\alert.js" />
+        <Compile Include="public\lib\bootstrap\js\button.js" />
+        <Compile Include="public\lib\bootstrap\js\carousel.js" />
+        <Compile Include="public\lib\bootstrap\js\collapse.js" />
+        <Compile Include="public\lib\bootstrap\js\dropdown.js" />
+        <Compile Include="public\lib\bootstrap\js\modal.js" />
+        <Compile Include="public\lib\bootstrap\js\popover.js" />
+        <Compile Include="public\lib\bootstrap\js\scrollspy.js" />
+        <Compile Include="public\lib\bootstrap\js\tab.js" />
+        <Compile Include="public\lib\bootstrap\js\tooltip.js" />
+        <Compile Include="public\lib\bootstrap\js\transition.js" />
+        <Content Include="public\lib\bootstrap\less\.csscomb.json" />
+        <Content Include="public\lib\bootstrap\dist\css\bootstrap-theme.css" />
+        <Content Include="public\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+        <Content Include="public\lib\bootstrap\dist\css\bootstrap.css" />
+        <Content Include="public\lib\bootstrap\dist\css\bootstrap.min.css" />
+        <Content Include="public\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+        <Compile Include="public\lib\bootstrap\dist\js\bootstrap.js" />
+        <Compile Include="public\lib\bootstrap\dist\js\bootstrap.min.js" />
+        <Compile Include="public\lib\bootstrap\dist\js\npm.js" />
+        <Compile Include="public\lib\jquery\dist\jquery.js" />
+        <Compile Include="public\lib\jquery\dist\jquery.min.js" />
+        <Compile Include="public\lib\jquery\src\ajax.js" />
+        <Compile Include="public\lib\jquery\src\attributes.js" />
+        <Compile Include="public\lib\jquery\src\callbacks.js" />
+        <Compile Include="public\lib\jquery\src\core.js" />
+        <Compile Include="public\lib\jquery\src\css.js" />
+        <Compile Include="public\lib\jquery\src\data.js" />
+        <Compile Include="public\lib\jquery\src\deferred.js" />
+        <Compile Include="public\lib\jquery\src\deprecated.js" />
+        <Compile Include="public\lib\jquery\src\dimensions.js" />
+        <Compile Include="public\lib\jquery\src\effects.js" />
+        <Compile Include="public\lib\jquery\src\event.js" />
+        <Compile Include="public\lib\jquery\src\intro.js" />
+        <Compile Include="public\lib\jquery\src\jquery.js" />
+        <Compile Include="public\lib\jquery\src\manipulation.js" />
+        <Compile Include="public\lib\jquery\src\offset.js" />
+        <Compile Include="public\lib\jquery\src\outro.js" />
+        <Compile Include="public\lib\jquery\src\queue.js" />
+        <Compile Include="public\lib\jquery\src\selector-native.js" />
+        <Compile Include="public\lib\jquery\src\selector-sizzle.js" />
+        <Compile Include="public\lib\jquery\src\selector.js" />
+        <Compile Include="public\lib\jquery\src\serialize.js" />
+        <Compile Include="public\lib\jquery\src\traversing.js" />
+        <Compile Include="public\lib\jquery\src\wrap.js" />
+        <Compile Include="public\lib\jquery\src\ajax\jsonp.js" />
+        <Compile Include="public\lib\jquery\src\ajax\load.js" />
+        <Compile Include="public\lib\jquery\src\ajax\parseJSON.js" />
+        <Compile Include="public\lib\jquery\src\ajax\parseXML.js" />
+        <Compile Include="public\lib\jquery\src\ajax\script.js" />
+        <Compile Include="public\lib\jquery\src\ajax\xhr.js" />
+        <Compile Include="public\lib\jquery\src\attributes\attr.js" />
+        <Compile Include="public\lib\jquery\src\attributes\classes.js" />
+        <Compile Include="public\lib\jquery\src\attributes\prop.js" />
+        <Compile Include="public\lib\jquery\src\attributes\support.js" />
+        <Compile Include="public\lib\jquery\src\attributes\val.js" />
+        <Compile Include="public\lib\jquery\src\core\access.js" />
+        <Compile Include="public\lib\jquery\src\core\init.js" />
+        <Compile Include="public\lib\jquery\src\core\parseHTML.js" />
+        <Compile Include="public\lib\jquery\src\core\ready.js" />
+        <Compile Include="public\lib\jquery\src\css\addGetHookIf.js" />
+        <Compile Include="public\lib\jquery\src\css\curCSS.js" />
+        <Compile Include="public\lib\jquery\src\css\defaultDisplay.js" />
+        <Compile Include="public\lib\jquery\src\css\hiddenVisibleSelectors.js" />
+        <Compile Include="public\lib\jquery\src\css\support.js" />
+        <Compile Include="public\lib\jquery\src\css\swap.js" />
+        <Compile Include="public\lib\jquery\src\data\accepts.js" />
+        <Compile Include="public\lib\jquery\src\data\Data.js" />
+        <Compile Include="public\lib\jquery\src\effects\animatedSelector.js" />
+        <Compile Include="public\lib\jquery\src\effects\Tween.js" />
+        <Compile Include="public\lib\jquery\src\event\alias.js" />
+        <Compile Include="public\lib\jquery\src\event\support.js" />
+        <Compile Include="public\lib\jquery\src\exports\amd.js" />
+        <Compile Include="public\lib\jquery\src\exports\global.js" />
+        <Compile Include="public\lib\jquery\src\manipulation\_evalUrl.js" />
+        <Compile Include="public\lib\jquery\src\manipulation\support.js" />
+        <Compile Include="public\lib\jquery\src\queue\delay.js" />
+        <Compile Include="public\lib\jquery\src\traversing\findFilter.js" />
+        <Compile Include="public\lib\jquery\src\var\arr.js" />
+        <Compile Include="public\lib\jquery\src\var\class2type.js" />
+        <Compile Include="public\lib\jquery\src\var\concat.js" />
+        <Compile Include="public\lib\jquery\src\var\hasOwn.js" />
+        <Compile Include="public\lib\jquery\src\var\indexOf.js" />
+        <Compile Include="public\lib\jquery\src\var\pnum.js" />
+        <Compile Include="public\lib\jquery\src\var\push.js" />
+        <Compile Include="public\lib\jquery\src\var\rnotwhite.js" />
+        <Compile Include="public\lib\jquery\src\var\slice.js" />
+        <Compile Include="public\lib\jquery\src\var\strundefined.js" />
+        <Compile Include="public\lib\jquery\src\var\support.js" />
+        <Compile Include="public\lib\jquery\src\var\toString.js" />
+        <Compile Include="public\lib\jquery\src\ajax\var\nonce.js" />
+        <Compile Include="public\lib\jquery\src\ajax\var\rquery.js" />
+        <Compile Include="public\lib\jquery\src\core\var\rsingleTag.js" />
+        <Compile Include="public\lib\jquery\src\css\var\cssExpand.js" />
+        <Compile Include="public\lib\jquery\src\css\var\getStyles.js" />
+        <Compile Include="public\lib\jquery\src\css\var\isHidden.js" />
+        <Compile Include="public\lib\jquery\src\css\var\rmargin.js" />
+        <Compile Include="public\lib\jquery\src\css\var\rnumnonpx.js" />
+        <Compile Include="public\lib\jquery\src\data\var\data_priv.js" />
+        <Compile Include="public\lib\jquery\src\data\var\data_user.js" />
+        <Compile Include="public\lib\jquery\src\manipulation\var\rcheckableType.js" />
+        <Compile Include="public\lib\jquery\src\sizzle\dist\sizzle.js" />
+        <Compile Include="public\lib\jquery\src\sizzle\dist\sizzle.min.js" />
+        <Compile Include="public\lib\jquery\src\traversing\var\rneedsContext.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="APIs" />
+        <Folder Include="controllers" />
+        <Folder Include="database" />
+        <Folder Include="model" />
+        <Folder Include="public" />
+        <Folder Include="public\images" />
+        <Folder Include="public\lib" />
+        <Folder Include="public\lib\bootstrap" />
+        <Folder Include="public\lib\bootstrap\dist" />
+        <Folder Include="public\lib\bootstrap\dist\css" />
+        <Folder Include="public\lib\bootstrap\dist\fonts" />
+        <Folder Include="public\lib\bootstrap\dist\js" />
+        <Folder Include="public\lib\bootstrap\fonts" />
+        <Folder Include="public\lib\bootstrap\grunt" />
+        <Folder Include="public\lib\bootstrap\js" />
+        <Folder Include="public\lib\bootstrap\less" />
+        <Folder Include="public\lib\bootstrap\less\mixins" />
+        <Folder Include="public\lib\jquery" />
+        <Folder Include="public\lib\jquery\dist" />
+        <Folder Include="public\lib\jquery\src" />
+        <Folder Include="public\lib\jquery\src\ajax" />
+        <Folder Include="public\lib\jquery\src\ajax\var" />
+        <Folder Include="public\lib\jquery\src\attributes" />
+        <Folder Include="public\lib\jquery\src\core" />
+        <Folder Include="public\lib\jquery\src\core\var" />
+        <Folder Include="public\lib\jquery\src\css" />
+        <Folder Include="public\lib\jquery\src\css\var" />
+        <Folder Include="public\lib\jquery\src\data" />
+        <Folder Include="public\lib\jquery\src\data\var" />
+        <Folder Include="public\lib\jquery\src\effects" />
+        <Folder Include="public\lib\jquery\src\event" />
+        <Folder Include="public\lib\jquery\src\exports" />
+        <Folder Include="public\lib\jquery\src\manipulation" />
+        <Folder Include="public\lib\jquery\src\manipulation\var" />
+        <Folder Include="public\lib\jquery\src\queue" />
+        <Folder Include="public\lib\jquery\src\sizzle" />
+        <Folder Include="public\lib\jquery\src\sizzle\dist" />
+        <Folder Include="public\lib\jquery\src\traversing" />
+        <Folder Include="public\lib\jquery\src\traversing\var" />
+        <Folder Include="public\lib\jquery\src\var" />
+        <Folder Include="public\styles" />
+        <Folder Include="views" />
+        <Folder Include="views\home" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>

@@ -1,0 +1,19 @@
+{
+  "name": "CodemotionDemo002",
+  "version": "1.0.0",
+  "description": "from .NET to NodeJs and Viceversa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    ".net"
+  ],
+  "author": "Ugo Lattanzi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.2",
+    "vash": "^0.7.12-1"
+  }
+}
